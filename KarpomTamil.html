@@ -9,92 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--mentioning charset to view tamil font-->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<!--style starts here-->
-	<style>
-		.head1 {
-			margin-top: 1vw;
-			font-size: 3vw;
-			color: red;
-			font-weight: bold;
-			text-align: center;
-		}
-
-		.head2 {
-			font-size: 2vw;
-			margin-left: 10px;
-			margin-bottom: 1px;
-			text-align: center;
-		}
-
-		body {
-			margin: 0 auto;
-			background-position: center;
-			background-size: contain;
-		}
-
-		.menu {
-			position: sticky;
-			top: 0;
-			background-color: cyan;
-			padding: 1vw 0vw 1vw 0vw;
-			color: white;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-
-		.menu a {
-			float: left;
-			font-weight: bold;
-			color: white;
-			text-align: center;
-			padding: 0.2vw 2vw;
-			text-decoration: none;
-			font-size: 1.6vw;
-		}
-
-		.menu-log {
-			right: auto;
-			float: right;
-		}
-
-		footer {
-			width: 100%;
-			bottom: 0px;
-			background-color: #000;
-			color: #fff;
-			position: relative;
-			padding-top: 1vw;
-			padding-bottom: 1.2vw;
-			text-align: center;
-			font-size: 1.5vw;
-			font-weight: bold;
-		}
-
-		.body_sec {
-			margin-left: 4vw;
-			margin-right: 4vw;
-			font-size: 1.6vw;
-		}
-	
-		.song {
-			text-align: center;
-			font-style: italic;
-			color: red;
-		}
-	
-		.answerkey{
-			position: relative;
-			text-align: center;
-			color: green;
-		}
-		
-		.explanation{
-			text-align: justify;
-		}
-		
-	</style>
-	<!--Style ends here-->
+	<!--Loading styles-->
+	<link rel="stylesheet" href="style.css">	
 
 </head>
 
@@ -105,18 +21,14 @@
 		<div class="head1">
 			கற்போம் தமிழ் 
 		</div>
-		
-		<div class="head2">
-			தொகுத்தவர்:  கஸ்தூரி (21TAMA__)
-		</div>
+
 	</header> <!-- Header Section ends here-->
 
 	<!-- Menu Navigation Bar Starts here-->
 	<nav class="menu">
 		<a href="#home">முகப்பு </a>
-		<a href="#contact">தொடர்பு</a>
 		<div class="menu-log">
-			<a href="#login">LOGIN</a>
+			<a href="About.html">தகவல் </a>
 		</div>
 	</nav> <!-- Menu Navigation Bar ends here-->
 	
@@ -143,11 +55,31 @@
 					வள்ளிதின் கூறி வகுத்து உரைத்தனரே <br>
 				</p>
 				<caption></caption>
-				<p class="explanation"><i>யாப்பியல் வகை - 26 (௨௬)</i> <br>
+				<p class="explanation"><i>யாப்பியல் வகை - 26 (௨௬)</i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				மாத்திரை, எழுத்து-இயல், அசைவகை, யாத்த சீர், அடி, யாப்பு, மரபு, தூக்கு, தொடை, நோக்கு, பா, அளவு-இயல், திணை, கைக்கோள், கூற்று, கேட்போர், களன் , காலவகை, பயன், மெய்ப்பாடு, எச்சம், முன்னம், பொருள், துறை, மாட்டு, வண்ணம்,
-				<br><br> <i> வனப்பு வகை - 8 (௮) </i> <br> 
-				அம்மை, அழகு, தொன்மை, தோல், விருந்து, இயைபு, புலன், இயைபு <br>
-				என முப்பத்து நான்கு (௩௪) செய்யுள் உறுப்புகள் உள்ளன என்று தொல்காப்பியர் குறிப்பிடுகின்றார்.</p>
+				<br><br> <i> வனப்பு வகை - 8 (௮) </i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				அம்மை, அழகு, தொன்மை, தோல், விருந்து, இயைபு, புலன், இயைபு என முப்பத்து நான்கு (௩௪) செய்யுள் உறுப்புகள் உள்ளன என்று தொல்காப்பியர் குறிப்பிடுகின்றார்.</p>
+				
+			<div id="qa"> <!--div qa starts here-->
+				<table><!--question answer table begins here-->
+					<caption>சுய சோதனை </caption>
+					<th>
+						<td align="center">வினா </td>
+						<td align="center">விடை</td>
+					</th>
+					<tr>
+						<td>1.</td>
+						<td>தொல்காப்பியார் குறிப்பிடும் செய்யுள் உறுப்புகள் எத்தனை ?</td>
+						<td class="answerkey" id="a1" onclick="answer1()"><a>விடை</a></td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>வனப்பு வகைகள் எத்தனை? </td>
+						<td class="answerkey" id="a2" onclick="answer2()"><a>விடை</a></td>
+					</tr>
+
+				</table><!--question answer table ends here-->
+			</div> <!--div qa ends here-->
 
 				<div>
 					<h4 class="side-heading">மாத்திரை</h4>
@@ -172,12 +104,12 @@
 					<tr>
 						<td>1.</td>
 						<td>மாத்திரையும் எழுத்தியலும் குறித்து கூறப்பட்டுள்ள அதிகாரம் எது ?</td>
-						<td class="answerkey" id="a1" onclick="answer1()"><a>விடை</a></td>
+						<td class="answerkey" id="b1" onclick="answer3()"><a>விடை</a></td>
 					</tr>
 					<tr>
 						<td>2.</td>
 						<td>எழுத்துக்களை ஒழிக்கக்கூடிய கால அளவு ................... எனப்படும். </td>
-						<td class="answerkey" id="a2" onclick="answer2()"><a>விடை</a></td>
+						<td class="answerkey" id="b2" onclick="answer4()"><a>விடை</a></td>
 					</tr>
 
 				</table><!--question answer table ends here-->
@@ -189,19 +121,19 @@
 	<br><br>
 	
 	<!-- Footer Section Starts here-->
-	<footer>தமிழ்த்துறை, பாரதியார் பல்கலைக்கழகம், கோயம்பத்தூர் </footer>
+	<footer style="position: relative;">
+		<a href="About.html">
+			<div class="head2">
+				தொகுத்தவர்:  கஸ்தூரி (21TAMA20)
+			</div>
+		</a>
+		<a href="https://bu-ac.in/"> தமிழ்த்துறை, பாரதியார் பல்கலைக்கழகம், கோயம்பத்தூர்  </a> 
+	</footer>
 	<!-- Footer Section ends here-->
 
 
 	<!--Scripts starts here-->
-	<script>
-	function answer1(){ 
-		document.getElementById('a1').innerHTML = "எழுத்ததிகாரம் ";
-	}
-	function answer2(){ 
-		document.getElementById('a2').innerHTML = "மாத்திரை ";
-	}
-	</script> 
+	<script src="jquery.js"></script> 
 	<!--Scripts ends here>
 
 </body>

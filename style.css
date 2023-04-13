@@ -21,6 +21,7 @@
 			background-size: contain;
 			background-color: powderblue;
 			line-height: 2;
+			text-align: justify;
 		}
 
 		.menu {
@@ -86,6 +87,11 @@
 			text-decoration: underline;
 		}
 		
+		.side-heading1{
+			color: lime;
+			text-decoration: underline;
+		}
+		
 		.example{
 			color: orange;
 			font-size: 1.4vw;
@@ -95,14 +101,13 @@
 			text-align: justify;
 		}
 		
-		
-		
 
 		table, th, td{
 			border: 1px solid black;
 			margin-left: auto;
 			margin-right: auto;
 			font-size: 1.5vw;
+			border-style: groove;
 		}
 		
 		caption{
@@ -116,4 +121,16 @@
 		
 		a{
 			text-decoration: none;
+		}
+		
+		.tree th{
+			color: green;
+			style: italic;
+			font: 1.2vw;
+			width: 32%;
+		}
+		
+		.tree td{
+			font: 1.2vw;
+			width: 33%;
 		}

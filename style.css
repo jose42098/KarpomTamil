@@ -1,5 +1,5 @@
 		.head1 {
-			margin-top: 1vw;
+			margin-top: 0vw;
 			font-size: 3vw;
 			color: red;
 			font-weight: bold;
@@ -26,11 +26,11 @@
 
 		.menu {
 			position: sticky;
-			top: 0;
+			top: -10px;
 			background-color: cyan;
 			padding: 1vw 0vw 1vw 0vw;
 			color: blue;
-			margin: 0 auto;
+			margin: -3vw 0vw 0vw 0vw;
 			overflow: hidden;
 		}
 
@@ -88,12 +88,12 @@
 		}
 		
 		.side-heading1{
-			color: lime;
+			color: #710193;
 			text-decoration: underline;
 		}
 		
 		.example{
-			color: orange;
+			color: #4d0f28;
 			font-size: 1.4vw;
 		}
 		

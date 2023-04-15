@@ -80,8 +80,51 @@
 		document.getElementById('f1').innerHTML = "விடுகதை";
 	}
 	function answerf2(){ 
-		document.getElementById('f2').innerHTML = "பாட்டு, உரை, நூல், வாய்மொழி. பிசி,அங்கதம், முதுமொழி";
+		document.getElementById('f2').innerHTML = "பாட்டு, உரை, நூல், வாய்மொழி, பிசி, அங்கதம், முதுமொழி";
 	}
 	function answerf3(){ 
 		document.getElementById('f3').innerHTML = "கட்டுதல்";
+	}
+
+	function answerg1(){ 
+		document.getElementById('g1').innerHTML = "";
+	}
+	function answerg2(){ 
+		document.getElementById('g2').innerHTML = "";
+	}
+	function answerg3(){ 
+		document.getElementById('g3').innerHTML = "";
+	}
+
+	function answerh1(){ 
+		document.getElementById('h1').innerHTML = "அகவல்";
+	}
+	function answerh2(){ 
+		document.getElementById('h2').innerHTML = "கலிப்பா";
+	}
+	function answerh3(){ 
+		document.getElementById('h3').innerHTML = "சரி";
+	}
+
+	function answeri1(){ 
+		document.getElementById('i1').innerHTML = "";
+	}
+	function answeri2(){ 
+		document.getElementById('i2').innerHTML = "";
+	}
+	function answeri3(){ 
+		document.getElementById('i3').innerHTML = "";
+	}
+
+	function answerj1(){ 
+		document.getElementById('j1').innerHTML = "மோனை";
+	}
+	function answerj2(){ 
+		document.getElementById('j2').innerHTML = "இரட்டைத்தொடை";
+	}
+	function answerj3(){ 
+		document.getElementById('j3').innerHTML = "எதுகை";
+	}
+	function answerj4(){ 
+		document.getElementById('j4').innerHTML = "இரும்பின் அன்ன.. <br> பொன்னின் அன்ன..";
 	}

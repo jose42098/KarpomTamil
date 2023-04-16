@@ -1,3 +1,20 @@
+	function allAns(){
+		answer1(); answer2(); answer3(); answer4();
+		answerc1(); answerc2(); answerc3(); answerc4(); answerc5(); answerc6(); answerc7();
+		answerd1(); answerd2(); answerd3(); answerd4(); answerd5();
+		answere1(); answere2(); answere3(); answere4(); answere5(); answere6(); answere7(); answere8();
+		answerf1(); answerf2(); answerf3();
+		answerg1(); answerg2(); answerg3();
+		answerh1(); answerh2(); answerh3();
+		answeri1(); answeri2(); answeri3();
+		answerj1(); answerj2(); answerj3(); answerj4();
+		answerk1(); answerk2(); answerk3(); answerk4(); answerk5(); answerk6(); answerk7(); answerk8(); answerk9();
+		answerl1(); answerl2();
+		answerm1();
+		answern1(); answern2(); answern3(); answern4(); answern5();
+		window.print();
+	}
+	
 	function answer1(){ 
 		document.getElementById('a1').innerHTML = "முற்பத்து நான்கு - 34";
 	}

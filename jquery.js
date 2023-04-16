@@ -128,3 +128,58 @@
 	function answerj4(){ 
 		document.getElementById('j4').innerHTML = "இரும்பின் அன்ன.. <br> பொன்னின் அன்ன..";
 	}
+
+	function answerk1(){ 
+		document.getElementById('k1').innerHTML = "ஆயிரம்";
+	}
+	function answerk2(){ 
+		document.getElementById('k2').innerHTML = "பன்னிரண்டு";
+	}
+	function answerk3(){ 
+		document.getElementById('k3').innerHTML = "இருபத்து ஐந்து";
+	}
+	function answerk4(){ 
+		document.getElementById('k4').innerHTML = "விடுகதை";
+	}
+	function answerk5(){ 
+		document.getElementById('k5').innerHTML = "பிண்டம்";
+	}
+	function answerk6(){ 
+		document.getElementById('k6').innerHTML = "நான்கு";
+	}
+	function answerk7(){ 
+		document.getElementById('k7').innerHTML = "பண்ணத்தி";
+	}
+	function answerk8(){ 
+		document.getElementById('k8').innerHTML = "சூத்திரம்";
+	}
+	function answerk9(){ 
+		document.getElementById('k9').innerHTML = "ஓத்து";
+	}
+
+	function answerl1(){ 
+		document.getElementById('l1').innerHTML = "கைகோள்";
+	}
+	function answerl2(){ 
+		document.getElementById('l2').innerHTML = "கற்பு";
+	}
+
+	function answerm1(){ 
+		document.getElementById('m1').innerHTML = "பார்ப்பான், பாங்கன், தோழி, செவிலி, தலைவன், தலைவி";
+	}
+
+	function answern1(){ 
+		document.getElementById('n1').innerHTML = "3";
+	}
+	function answern2(){ 
+		document.getElementById('n2').innerHTML = "இறப்பு, நிகழ்வு, எதிர்";
+	}
+	function answern3(){ 
+		document.getElementById('n3').innerHTML = "பயன்";
+	}
+	function answern4(){ 
+		document.getElementById('n4').innerHTML = "8";
+	}
+	function answern5(){ 
+		document.getElementById('n5').innerHTML = "நகை, அழுகை, இளிவரல், மருட்கை, அச்சம், பெருமிதம், வெகுளி. உவகை";
+	}

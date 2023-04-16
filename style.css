@@ -27,7 +27,7 @@
 		.menu {
 			position: sticky;
 			top: -10px;
-			background-color: cyan;
+			background-color: #8c52ff;
 			padding: 1vw 0vw 1vw 0vw;
 			color: blue;
 			margin: -3vw 0vw 0vw 0vw;
@@ -37,7 +37,7 @@
 		.menu a {
 			float: left;
 			font-weight: bold;
-			color: blue;
+			color: white;
 			text-align: center;
 			padding: 0.2vw 2vw;
 			text-decoration: none;
@@ -52,8 +52,8 @@
 		footer {
 			width: 100%;
 			bottom: 0px;
-			background-color: cyan;
-			color: #fff;
+			background-color: #8c52ff;
+			color: antiquewhite;
 			padding-top: 1vw;
 			padding-bottom: 1.2vw;
 			text-align: center;
@@ -144,3 +144,9 @@
 		img{
 			width: 100%
 		}
+		
+		.print img{
+			width: 2%;
+			height: 2%;
+		}
+		

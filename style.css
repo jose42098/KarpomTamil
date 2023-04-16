@@ -141,12 +141,6 @@
 			font-style: italic;
 		}
 		
-		.header img{
+		img{
 			width: 100%
 		}
-		
-		.print img{
-			width: 2%;
-			height: 2%;
-		}
-		

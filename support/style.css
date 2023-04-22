@@ -1,0 +1,165 @@
+		.head1 {
+			margin-top: 0vw;
+			font-size: 3vw;
+			color: antiquewhite;
+			font-weight: bold;
+			text-align: center;
+			background-color: #8c52ff;
+			position: relative;
+		}
+
+		.head2 {
+			font-size: 2vw;
+			margin-left: 10px;
+			margin-bottom: 1px;
+			text-align: center;
+		}
+
+		body {
+			margin: 0 auto;
+			background-position: center;
+			background-size: contain;
+			background-color: powderblue;
+			line-height: 2.5;
+			text-align: justify;
+		}
+
+		.menu {
+			position: sticky;
+			top: 0vw;
+			background-color: #8c52ff;
+			padding: 0vw 0vw 0vw 0vw;
+			color: blue;
+			margin: 0vw 0vw 0vw 0vw;
+			overflow: hidden;
+		}
+
+		.menu a {
+			float: left;
+			font-weight: bold;
+			color: white;
+			text-align: center;
+			padding: 0.2vw 2vw;
+			text-decoration: none;
+			font-size: 1.6vw;
+		}
+		
+		.menu-log {
+			right: auto;
+			float: right;
+		}
+
+		footer {
+			width: 100%;
+			bottom: 0px;
+			background-color: #8c52ff;
+			color: antiquewhite;
+			padding-top: 1vw;
+			padding-bottom: 1.2vw;
+			text-align: center;
+			font-size: 1.5vw;
+			font-weight: bold;
+		}
+
+		.body_sec {
+			margin-left: 3vw;
+			margin-right: 3vw;
+			font-size: 1.6vw;
+		}
+	
+		.tholkappiyam{
+			font-style: italic;
+			text-align: center;
+			font-size: 1.8vw;
+			color: #8c52ff;
+			margin-top: -4vw;
+		}
+
+		.song {
+			text-align: center;
+			font-style: italic;
+			color: red;
+			border-style: groove;
+			border-color: grey;
+			border-radius: 1vw;
+		}
+	
+		.answerkey{
+			position: relative;
+			text-align: center;
+			color: green;
+		}
+		
+		.side-heading{
+			color: green;
+			text-decoration: underline;
+		}
+		
+		.side-heading1{
+			color: #710193;
+			text-decoration: underline;
+		}
+		
+		.example{
+			color: #4d0f28;
+			font-size: 1.4vw;
+		}
+		
+		.explanation{
+			text-align: justify;
+		}
+		
+
+		table, th, td{
+			border: 1px solid black;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 1.5vw;
+			border-style: groove;
+		}
+
+		th{
+			text-align: center;
+		}
+		
+		table{
+			width: 100%;
+		}
+		
+		caption{
+			font-style: italic;
+			border: 1px solid black;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		
+		.asai-tree th{
+			color: green;
+			font-style: italic;
+			font-size: 1.5vw;
+			width: 32%;
+		}
+		
+		.asai-tree td{
+			font-size: 1.5vw;
+			width: 33%;
+			text-align:center;
+			font-style: italic;
+		}
+		
+		.header img{
+			width: 100%
+		}
+		
+		.print img{
+			padding-top: 3vw;
+			width: 2%;
+			height: 2%;
+		}
+		
+		.exp-song{
+			margin-left:5vw;
+			text-align:center-left;
+		}
